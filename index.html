@@ -9,31 +9,14 @@
 </head>
 
 <body>
-    <h1>GIOCA A CAMPO MINATO</h1>
-    <button id="start">Avvia gioco</button>
-    <select name="option" id="difficult">
-        <option value="easy">Easy</option>
-        <option value="medium">Medium</option>
-        <option value="hard">Hard</option>
+    <h1>Gioco delle Bombe</h1>
+    <select id="difficult">
+        <option value="easy">Facile (10x10)</option>
+        <option value="medium">Medio (9x9)</option>
+        <option value="hard">Difficile (7x7)</option>
     </select>
-    <p>Quanti numeri generare? 
-        <input type="text" id="quanti">
-        <input type="button" onclick="casuali()" value="Genera casuali">
-     </p>
-     <p id="casuali"></p>
-    <div id="grid">
-        <!-- <div class="square"></div>
-        <div class="square"></div>
-        <div class="square"></div>
-        <div class="square"></div>
-        <div class="square"></div>
-        <div class="square"></div>
-        <div class="square"></div>
-        <div class="square"></div>
-        <div class="square"></div> -->
-    </div>
-
-
+    <button id="start">Inizia Gioco</button>
+    <div id="grid"></div>
     <script src="./js/main.js"></script>
 </body>
 
